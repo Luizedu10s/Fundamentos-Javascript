@@ -1,0 +1,39 @@
+
+toString() => Converte um array em uma string separada por virgulas.
+push() Este método adiciona itens ao final de um array e altera o array original.
+pop() => Remove o último item de um array e retorna o item.
+shift() => Remove o primeiro item do array e retorna o item.
+unshift() => adicona um ou vários itens ao inicio de um array.
+indexOf() => retorna o index do item no array.
+filter() => Espécie de filtro, ele cria um array se os itens de um array passarem
+por uma condição específica.
+
+map() => cria um array manipulando valores de outro array.
+
+exemplo:
+    const userNames = ['tina', 'danny', 'mark', 'bolaji'];
+    const display = userNames.map(item => {
+    return '<li>' + item + '</li>';
+    })
+    const render = '<ul>' + display.join('') + '</ul>';
+    document.write(render);
+
+
+forEach() => Este método é bom para a iteração por meio de um array.
+Ele aplica uma função a todos os itens de um array
+
+Exemplo: 
+    const cores = ['verde', 'amarelo', 'azul'];
+    cores.forEach((item, indice) => console.log(indice, item));
+    // retorna os índices e os itens de um array
+    // 0 "verde"
+    // 1 "amarelo"
+    // 2 "azul"
+
+
+
+includes() => Este método verifica se um array contém determinado item
+    let usuarios = ['paddy', 'zaddy', 'faddy', 'baddy'];
+    usuarios.includes('baddy'); // retorna true
+*/
+
